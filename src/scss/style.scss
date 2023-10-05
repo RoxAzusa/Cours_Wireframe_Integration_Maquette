@@ -1,4 +1,7 @@
 //Override des variables bootstrap scss ici
 
+@import "./variable.scss";
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+@import "./override.scss";

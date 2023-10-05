@@ -12,7 +12,205 @@
     />
   </head>
   <body>
-    
+    <header class="d-none d-sm-block">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse d-flex justify-content-end mt-5 me-5" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Achter des livres</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Consulter des livres</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Buy books section -->
+      <section class="bg-primary pt-sm-4 pb-sm-5 py-5">
+        <div class="row d-flex align-items-center justify-content-center me-0 p-5">
+          <div class="col-sm-4 text-white">
+            <h1>Acheter des livres, c'est facile</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Laoreet nunc auctor metus et eu dui mattis. Donec nunc tortor convallis massa cras ac. Amet vulputate faucibus amet nibh nunc non. Est felis aenean risus purus.</p>
+            <a class="btn btn-lg btn-outline-primary" href="#contact" role="button">Voir nos livres</a>
+          </div>
+          <div class="col-3 offset-1 d-none d-sm-block">
+            <img src="./src/images/image1.png" alt="pile de livres" style="width: 298px; height: 452px;">
+          </div>
+        </div>
+      </section>
+
+      <!-- Check out the classics section  -->
+      <section class="py-5">
+        <div class="d-flex flex-column align-items-center">          
+          <h3 class="fw-bold text-secondary pb-3 text-wrap text-center">Consultez les classiques</h3>
+          <form class="col-sm-6 mb-3">
+            <div class="d-flex align-items-center">    
+              <div class="d-flex justify-content-center align-items-center border rounded-start" style="height: 38px; width: 40px; background-color: #F8F9FA;">                
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+              </div>          
+              <input class="form-control rounded-0 rounded-end" type="search" placeholder="Rechercher un livre" aria-label="Rechercher un livre">
+            </div>
+          </form>
+          <div class="alert alert-warning d-sm-flex align-items-center mt-4 d-none" role="alert">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+              <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+            <div class="mx-3">
+              Attention les frais de port ne sont pas inclus
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        </div>
+
+        <div class="container px-5">
+          <div class="row-sm col d-flex flex-column flex-sm-row">
+            <div class="col my-5 mx-4 position-relative">
+              <img alt="Livre les fleurs du mal de Baudelaire" class="w-100" src="./src/images/image2.png">
+              <p class="badge bg-light text-info position-absolute top-0 end-0 p-2 my-3 mx-4 fw-bold">Best seller</p>
+              <h6 class="fw-bold text-dark mb-0 mt-2">Baudelaire</h6>
+              <p class="fw-bold text-secondary">Les Fleurs du mal</p>
+            </div>
+            <div class="col my-5 mx-4 position-relative d-none d-sm-block">
+              <img alt="Livre les fleurs du mal de Baudelaire" class="w-100" src="./src/images/image2.png">
+              <p class="badge bg-light text-info position-absolute top-0 end-0 p-2 my-3 mx-4 fw-bold">Best seller</p>
+              <h6 class="fw-bold text-dark mb-0 mt-2">Baudelaire</h6>
+              <p class="fw-bold text-secondary">Les Fleurs du mal</p>
+            </div>
+            <div class="col my-5 mx-4 position-relative order-3 order-sm-3">
+              <img alt="Livre les fleurs du mal de Baudelaire" class="w-100" src="./src/images/image2.png">
+              <p class="badge rounded-pill bg-danger position-absolute top-0 end-0 py-1 px-2 my-3 mx-4 m-4">Rupture de
+                stock</p>
+              <h6 class="fw-bold text-dark mb-0 mt-2">Baudelaire</h6>
+              <p class="fw-bold text-secondary">Les Fleurs du mal</p>
+            </div>
+            <div class="col my-5 mx-4 position-relative order-2 order-sm-4">
+              <img alt="Livre les fleurs du mal de Baudelaire" class="w-100" src="./src/images/image2.png">
+              <h6 class="fw-bold text-dark mb-0 mt-2">Baudelaire</h6>
+              <p class="fw-bold text-secondary">Les Fleurs du mal</p>
+            </div>
+          </div>
+          <div class="row d-none d-sm-flex">
+            <div class="col my-5 mx-4 position-relative">
+              <img alt="Livre les fleurs du mal de Baudelaire" class="w-100" src="./src/images/image2.png">
+              <h6 class="fw-bold text-dark mb-0 mt-2">Baudelaire</h6>
+              <p class="fw-bold text-secondary">Les Fleurs du mal</p>
+            </div>
+            <div class="col my-5 mx-4 position-relative">
+              <img alt="Livre les fleurs du mal de Baudelaire" class="w-100" src="./src/images/image2.png">
+              <h6 class="fw-bold text-dark mb-0 mt-2">Baudelaire</h6>
+              <p class="fw-bold text-secondary">Les Fleurs du mal</p>
+            </div>
+            <div class="col my-5 mx-4 position-relative">
+              <img alt="Livre les fleurs du mal de Baudelaire" class="w-100" src="./src/images/image2.png">
+              <h6 class="fw-bold text-dark mb-0 mt-2">Baudelaire</h6>
+              <p class="fw-bold text-secondary">Les Fleurs du mal</p>
+            </div>
+            <div class="col my-5 mx-4 position-relative">
+              <img alt="Livre les fleurs du mal de Baudelaire" class="w-100" src="./src/images/image2.png">
+              <h6 class="fw-bold text-dark mb-0 mt-2">Baudelaire</h6>
+              <p class="fw-bold text-secondary">Les Fleurs du mal</p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">          
+          <nav aria-label="Page navigation example">
+            <ul class="pagination pagination-sm-lg gap-2">
+              <li class="page-item active"><a class="page-link rounded" href="#">1</a></li>
+              <li class="page-item"><a class="page-link rounded" href="#">2</a></li>
+              <li class="page-item"><a class="page-link rounded" href="#">3</a></li>
+              <li class="page-item"><a class="page-link rounded" href="#">4</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <!-- Best Seller section -->
+      <section class="bg-primary py-5">
+        <div class="d-flex flex-column flex-sm-row align-items-center justify-content-sm-center py-5 me-0">
+          <div class="col-sm-3 d-flex justify-content-sm-end justify-content-center pb-5 pb-sm-0">
+            <img src="./src/images/image2.png" alt="Livre les fleurs du mal de Baudelaire" class="w-75" style="width: 238px;">
+          </div>
+          <div class="col-sm-4 text-white offset-sm-1 text-center text-sm-start p-5 pb-sm-0">
+            <h1>Notre best seller</h1>
+            <p class="py-3">Lorem ipsum dolor sit amet consectetur. Laoreet nunc auctor metus et eu dui mattis. Donec nunc tortor convallis massa cras ac. Amet vulputate faucibus amet nibh nunc non. Est felis aenean risus purus.</p>
+            <a class="btn btn-lg btn-outline-primary" href="#contact" role="button">Acheter</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Top selling section -->
+      <section class="pb-5">
+        <div class="col-sm-6 d-flex flex-column align-items-center m-auto mt-5 pb-5 p-3">
+          <h3 class="mb-5 text-secondary">Top des ventes</h3>
+          <table class="table table-borderless">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nom</th>
+                <th scope="col" class="d-none d-sm-table-cell">Date de sortie</th>
+                <th scope="col">Disponibilité</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Les Fleurs du mal</td>
+                <td class="d-none d-sm-table-cell">21/12/2021</td>
+                <td class="badge rounded-pill bg-success text-white">Disponible</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Voyage au bout de la nuit</td>
+                <td class="d-none d-sm-table-cell">12/08/2020</td>
+                <td class="badge rounded-pill bg-danger text-white">Rupture</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Don Quichotte</td>
+                <td class="d-none d-sm-table-cell">05/02/2016</td>
+                <td class="badge rounded-pill bg-success text-white">Disponible</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-primary py-5">
+      <div class="col-5 text-white m-auto py-5">        
+        <div class="row">
+          <div class="col pb-4">
+            <h6>Navigation</h6>
+            <ul class="list-unstyled">
+              <li>News</li>
+              <li>Acheter des livres</li>
+              <li>Consulter des livres</li>
+              <li>Best Sellere</li>
+            </ul>
+          </div>
+          <div class="col pb-4">
+            <h6>Aide</h6>
+            <ul class="list-unstyled">
+              <li>Prix</li>
+              <li>Comparer</li>
+              <li>Catalogue</li>
+              <li>Sav</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h6>Informations</h6>
+            <ul class="list-unstyled">
+              <li>Conditions d'utilisation</li>
+              <li>Mentions légales</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script type="module" src="src/main.js"></script>
   </body>
 </html>
